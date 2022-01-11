@@ -50,7 +50,7 @@ def find_d(your_path):                                      # Поиск дуб�
 def main():
     if len (sys.argv) > 1:
         dir_name = sys.argv[1]    
-        path = os.path.normpath(pjoin(os.getcwd(), 'Py_files', dir_name))
+        path = os.path.normpath(pjoin(os.getcwd(), dir_name))
         name = find_d(path)
         print(name, '\n')
         file = open(name, 'r')
