@@ -3,4 +3,4 @@
 Установка зависимостей: pip install -r requirements.txt
 
 Запуск программы:
-    python3 ./find_duplicates.py wav_data duplicates.txt
+    python3 find_duplicates.py wav_data duplicates.txt
